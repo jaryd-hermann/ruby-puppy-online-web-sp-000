@@ -14,9 +14,11 @@ end
 
 def self.clear_all
   @@all.clear
-end 
-
-
 end
+
+def self.print_all
+  @@array.each {|name| puts "#{name}"}
+end
+
 
 end #end of class
