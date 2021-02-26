@@ -18,7 +18,6 @@ end
 
 def self.print_all
   @@array.each {|name| puts "#{name}"}
-end
-
+end 
 
 end #end of class
