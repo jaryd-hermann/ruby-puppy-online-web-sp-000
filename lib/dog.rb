@@ -1,14 +1,14 @@
 # Add your code here
 def Class Dog
 attr_accessor :name
-@@all = [] #class variable 
+@@all = [] #class variable
 
 def initialize(name)
-  @name = name 
-end 
+  @name = name
+end
 
-def self.all 
+def self.all
   @all 
-end 
+end
 
-end #end of class 
+end #end of class
