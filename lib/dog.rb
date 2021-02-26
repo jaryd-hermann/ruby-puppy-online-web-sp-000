@@ -5,10 +5,18 @@ attr_accessor :name
 
 def initialize(name)
   @name = name
+  @@all << self
 end
 
 def self.all
-  @all 
+  @all
+end
+
+def self.clear_all
+  @@all.clear
+end 
+
+
 end
 
 end #end of class
